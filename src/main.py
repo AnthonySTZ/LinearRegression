@@ -1,8 +1,8 @@
-import linear_regression
+import linear_regression as lr
 
 
 def run():
-    pass
+    lr.compute_linear_regression("assets/data.csv")
 
 
 if __name__ == "__main__":
